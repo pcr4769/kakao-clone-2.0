@@ -12,16 +12,17 @@
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
-    <div class="status-bar"></div>
-    <div class="status-bar__column">
-      <span class="status-bar__clock">13:54</span>
-    </div>
-    <div class="status-bar__column">
-      <i class="fas fa-clock"></i>
-      <i class="fas fa-volume-mute"></i>
-      <i class="fas fa-wifi"></i>
-      <span class="status-bar__battery-level">100%</span>
-      <i class="fas fa-battery-full"></i>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
     </div>
     <header class="header">
       <div class="header__header-column">
@@ -39,14 +40,16 @@
     <main class="friends">
       <header class="friends__header">
         <div class="friends__friend friend friend--lg">
-          <img src="images/bubblegum.jpg" class="g-avatar friend__avatar" />
-          <div class="friend__content">
-            <span class="friend__name">
-              Chaerin Park
-            </span>
-            <span class="friend__status">
-              I will be happy
-            </span>
+          <div class="friend__column">
+            <img src="images/bubblegum.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Chaerin Park
+              </span>
+              <span class="friend__status">
+                I will be happy
+              </span>
+            </div>
           </div>
         </div>
       </header>
@@ -55,34 +58,72 @@
           Plus Friend
         </h5>
         <li class="friends__friend friend">
-          <img src="images/bubblegum.jpg" class="g-avatar friend__avatar" />
+          <img src="images/sky.jpg" class="friend__avatar" />
           <div class="friend__content">
             <span class="friend__name">
-              Plus Friend
+              Mina
             </span>
           </div>
         </li>
       </div>
       <div class="friends__list">
         <h5 class="friends__title">Friends 14</h5>
-          <div class="friends__friend friend friend--lg">
-            <div class="friend__column">
-            <img src="images/bubblegum.jpg" class="g-avatar friend__avatar" />
+
+        <div class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/aejin.png" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
-               Chaerin Park
+                Aejin
               </span>
               <span class="friend__status">
-               I will be happy
+                I WANT A+
               </span>
             </div>
-            <div class="friend__column">
-              <div class="friend__nowlistening">
-                <span> FTISLAND (FT NomadCoders)</span>
+          </div>
+          <div class="friend__column">
+            <div class="friend__nowlistening">
+              <span>
+                Moonlight (Debussy)
                 <i class="fas fa-play"></i>
-              </div>
+              </span>
             </div>
           </div>
+        </div>
+        <div class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/hyeonjeong.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Hyeonjeong
+              </span>
+              <span class="friend__status">
+                School Exodus hahahhahah
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/jiwon.png" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Jiwon
+              </span>
+              <span class="friend__status">
+                Pizza
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__nowlistening">
+              <span>
+                Castle (Kamikata Ken)
+                <i class="fas fa-play"></i>
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <nav class="nav">
@@ -109,5 +150,10 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">
+        Please make your screen smaller!
+      </span>
+    </div>
   </body>
 </html>
