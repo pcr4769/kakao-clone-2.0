@@ -25,19 +25,15 @@
   margin-right: 15px;
 }
 
-.friend__content .friend__name {
-  display: block;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-.friend__content .friend__status,
 .friend__content .friend__bottom-text,
+.friend__content .friend__status,
 .friend .chat__timestamp {
   opacity: 0.6;
+  display: block;
 }
 .friend__content .friend__bottom-text {
   font-size: 14px;
+  display: block;
 }
 
 .friend__content .friend__status,
@@ -65,4 +61,9 @@
   background-color: #f7f7f7;
   padding: 10px 15px;
   border-radius: 5px;
+}
+.friend__content .friend__name {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
 }

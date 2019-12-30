@@ -4,8 +4,14 @@
 
 .find .header-btn {
   display: flex;
-  flex-direction: column;
+
+  justify-content: center;
   align-items: center;
+}
+.find__btn-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .header-btn__title {
   display: block;
@@ -21,4 +27,15 @@
   font-size: 12px;
   opacity: 0.7;
   margin-bottom: 20px;
+}
+
+.recommend-friend__column {
+  display: flex;
+  justify-content: space-between;
+}
+.friend__add-btn-body {
+  display: flex;
+}
+.recommend-friend__name {
+  display: flex;
 }
